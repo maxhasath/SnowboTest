@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Snowbo Test Suite 1">
+	<test name="Login">
+		<classes>
+			<class name="testcases.LoginTest"/>
+		</classes>
+	</test>
+	<test name="SignUp">
+		<classes>
+			<class name="testcases.SignUpTest"/>
+		</classes>
+	</test>
+	<test name="ContactUs">
+		<classes>
+			<class name="testcases.ContactUsTest"/>
+		</classes>
+	</test>
+	<test name="Resetpassword">
+		<classes>
+			<class name="testcases.ResetPasswordTest"/>
+		</classes>
+	</test>
+	<test name="SignupBusiness">
+		<classes>
+		                           
+			<class name="testcases.SignUpBusinessTest"/>
+		</classes>
+	</test>
+	<test name="Statusupdate">
+		<classes>
+		                           
+			<class name="testcases.StatusUpdateTest"/>
+		</classes>
+	</test>
+		
+</suite>
